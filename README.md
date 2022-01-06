@@ -10,6 +10,7 @@ If you use Sublime Text 2, you can see <a href="https://github.com/thunkli/Conve
 
 ## Features
 
+* Add default file prefix as json
 * Chinese Characters To Unicode
 * Unicode to Chinese Characters
 
