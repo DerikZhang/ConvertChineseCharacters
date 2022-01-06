@@ -89,3 +89,22 @@ class UnicodeToChineseCharactersCommand(sublime_plugin.TextCommand):
                 self.view.replace(edit, region, s)
         else:
             sublime.error_message('ConvertChineseCharacters allowing you to convert your .js, .json, and .css files')
+
+
+
+class UnicodeToChineseAndJsonDecodeCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+
+        def unicodeTo(x):
+            s = x.group(0)
+            s = s[2:]
+            s = chr(int(s, 16))
+            return s
+        region = sublime.Region(0, self.view.size())
+        s = self.view.substr(region)
+        s = re.sub(r"(\\\")", "\"", s)
+        s = re.sub(r"(\\\\)", r"\\", s)
+        s = re.sub(r"(\\[uU]\w{4})", unicodeTo, s)
+        self.view.replace(edit, region, s)
+
+

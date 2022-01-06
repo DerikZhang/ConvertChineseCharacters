@@ -6,5 +6,9 @@
     {
         "caption": "Unicode: Unicode To Chinese Characters",
         "command": "unicode_to_chinese_characters"
+    },
+    {
+        "caption": "Unicode: Unicode To Chinese Characters And Json Decode",
+        "command": "unicode_to_chinese_and_json_decode"
     }
 ]

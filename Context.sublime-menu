@@ -5,7 +5,8 @@
         "children":
         [
             { "command": "chinese_characters_to_unicode", "caption": "Chinese Characters To Unicode" },
-            { "command": "unicode_to_chinese_characters", "caption": "Unicode To Chinese Characters" }
+            { "command": "unicode_to_chinese_characters", "caption": "Unicode To Chinese Characters" },
+            { "command": "unicode_to_chinese_and_json_decode", "caption": "Unicode To Chinese Characters And Json Decode" }
         ]
     }
 ]
