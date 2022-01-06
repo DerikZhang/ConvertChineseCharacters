@@ -8,7 +8,7 @@ import re
 def resolveSyntaxType(view):
 
     syntax = view.settings().get('syntax')
-    fileSuffix = ""
+    fileSuffix = "json"
     if syntax == "Packages/JavaScript/JSON.sublime-syntax":
         fileSuffix = "json"
     elif syntax == "Packages/JavaScript/JavaScript.sublime-syntax":
