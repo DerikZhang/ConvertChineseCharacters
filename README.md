@@ -16,7 +16,6 @@ If you use Sublime Text 2, you can see <a href="https://github.com/thunkli/Conve
 
 ## Install
 
-* Use <a href="https://packagecontrol.io/installation">Package Control</a>: search `ConvertChineseCharacters` and install
 * Clone the source code into your sublime text's package folder
 
 
