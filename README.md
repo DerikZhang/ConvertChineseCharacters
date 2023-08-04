@@ -4,9 +4,17 @@ Plugin for Sublime text 3 for convert chinese characters, allowing you to conver
 
 If you use Sublime Text 2, you can see <a href="https://github.com/thunkli/ConvertChineseCharactersFor2">ConvertChineseCharactersFor2</a>
 
-![1](https://cloud.githubusercontent.com/assets/1193966/12030060/63ded0e2-ae33-11e5-8f76-b9b2cc34e14e.gif)
+<img width="1026" alt="image" src="https://github.com/DerikZhang/ConvertChineseCharacters/assets/9244137/2ddb6c73-9500-4f61-bad3-324ae48556f7">
 
-![2](https://cloud.githubusercontent.com/assets/1193966/12030061/63e3fac2-ae33-11e5-9a50-78b9ebf2d6e1.gif)
+Before:
+```
+{\"type\":\"text\",\"id\":1136950638266298368,\"content\":\"\",\"attachments\":[]}
+```
+
+After:
+```
+{"type":"text","id":1136950638266298368,"content":"","attachments":[]}
+```
 
 ## Features
 
